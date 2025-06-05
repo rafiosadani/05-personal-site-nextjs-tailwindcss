@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Laporan Praktikum
 
-## Getting Started
+|  | Pemrograman Berbasis Framework 2025 |
+| ------ |-------------------------------------|
+| NIM | 244107027004                        |
+| Nama | Rafio Sadani                        |
+| Kelas | TI - 4K                             |
 
-First, run the development server:
+## Langkah - Langkah Praktikum
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Tampilan struktur folder project Website Portofolio 
+   ![Tampilan Stuktur Folder Project Website Portofolio](./public/image-docs/structure-folder-project.png "Tampilan Stuktur Folder Project Website Portofolio")
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Membuat halaman `Tentang Saya` untuk menampilkan biodata diri  
+   ![Tampilan Halaman Tentang Saya (Praktikum)](./public/image-docs/ss-about-page-before.png "Tampilan Halaman Tentang Saya (Praktikum)")
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Membuat halaman `Proyek` untuk menampilkan beberapa proyek yg sudah dikerjakan  
+   ![Tampilan Halaman Proyek (Praktikum)](./public/image-docs/ss-projects-page-before.png "Tampilan Halaman Proyek (Praktikum)")
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Membuat halaman `Esai` yang memuat daftar esai yang telah ditulis
+   ![Tampilan Halaman Esai (Praktikum)](./public/image-docs/ss-essays-page-before.png "Tampilan Halaman Esai (Praktikum)")
 
-## Learn More
+## Tugas Praktikum
 
-To learn more about Next.js, take a look at the following resources:
+1. Memodifikasi halaman `Tentang Saya` menjadi tampilan yang lebih menarik
+   ![Tampilan Halaman Tentang Saya](./public/image-docs/ss-about-page-after.png "Tampilan Halaman Tentang Saya")
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Memodifikasi halaman `Proyek` menjadi lebih detail dan rapih
+   ![Tampilan Halaman Proyek](./public/image-docs/ss-projects-page-after.png "Tampilan Halaman Proyek")
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Memodifikasi halaman `Esai` dengan grid daftar artikel yg telah ditulis
+   ![Tampilan Halaman Esai](./public/image-docs/ss-essays-page-after.png "Tampilan Halaman Esai")

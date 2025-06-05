@@ -47,7 +47,7 @@ export default function Navbar() {
             icon: <User size={16} />,
         },
         {
-            title: "Projects",
+            title: "Proyek",
             url: "/projects",
             icon: <Lightbulb size={16} />,
         },
