@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Hero from "@/components/about/Hero";
+import AboutAndEducation from "@/components/about/AboutAndEducation";
 
 export const metadata: Metadata = {
   title: "Tentang Saya",
@@ -10,11 +12,10 @@ export const metadata: Metadata = {
 }
 
 export default function Home() {
-  return (
-      <div className="mt-16 px-8">
-          <header>
-              <h1 className="font-bold text-4xl text-zinc-800">Tentang Saya</h1>
-          </header>
-      </div>
-  )
+    return (
+        <>
+            <Hero />
+            <AboutAndEducation />
+        </>
+    )
 }

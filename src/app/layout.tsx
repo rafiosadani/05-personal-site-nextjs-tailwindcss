@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Urbanist } from "next/font/google";
 import "./globals.css";
 import Layout from "@/components/Layout";
 
-const inter = Inter({subsets: ['latin']});
+const urbanist = Urbanist({
+    subsets: ['latin'],
+    variable: '--font-urbanist',
+    display: 'swap'
+});
 
 export const metadata: Metadata = {
     title: "Website Pribadi",
@@ -17,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-        <body className={`${inter.className}`}>
+        <body className={`${urbanist.className} font-urbanist`}>
             <Layout>
                 {children}
             </Layout>
